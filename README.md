@@ -95,7 +95,7 @@ A request flows through the following stages:
 
 ### Installation
 ```bash
-git clone https://github.com/YOUR_USER/echokist-community.git
+git clone https://github.com/NesarioX/echokist-community.git
 cd echokist-community
 pip install -r requirements.txt
 
