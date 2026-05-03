@@ -1,30 +1,24 @@
 # ECHOKIST-V10
 # EchoKist Community Edition
 
-A lightweight, open demonstration of a self‑evolving multi‑agent reasoning runtime.  
-LLM personas don’t just debate — their **personalities dynamically evolve** based on long‑term
-performance, while adversarial critique and externalized alignment prevent the consensus from
-collapsing into fragile agreement.
+A lightweight, open demonstration of a **self‑evolving multi‑agent reasoning runtime**.
+Multiple LLM personas debate, critique, and resolve contradictions — while their own
+behavior patterns adapt over time based on long‑term performance.
 
 EchoKist Community Edition is the public companion of the **EchoKist** research framework.
 It distills the full multi‑agent orchestration pipeline into a clean, under‑400‑line scaffold
 that anyone can run, inspect, and extend.
 
-> 📄 Read the full paper (pre‑print): [EchoKist: A Multi-Agent Cognitive Runtime with Adversarial Consensus and Externalized Alignment](https://arxiv.org/…)  
+> 📄 Read the full paper (pre‑print): [EchoKist: A Multi-Agent Cognitive Runtime with Adversarial Consensus and Externalized Alignment](https://arxiv.org/…)
 
-> 🧠 **What’s locked away in the full engine?**  
-> The closed‑source research version adds a **self‑improving loop**:
-> - **Personality Evolution** – skill vectors drift, strengthen, and are pulled back to identity anchors, preventing unlimited drift while allowing adaptive behavior.
-> - **Chaos Trainer** – injects bounded reasoning instability to expose weak equilibria.
-> - **Credit Broker** – redistributes influence based on each persona’s historical contribution.
-> - **Stability Controller** – monitors reward variance and automatically tunes exploration.
->
-> This community edition exposes only the orchestration skeleton. The complete cognitive
+> 🧠 **What's locked away?**
+> The closed‑source research engine adds a self‑improving loop with personality evolution,
+> adversarial perturbation, credit redistribution, and autonomous stability control.
+> This community edition exposes only the orchestration skeleton — the complete cognitive
 > architecture remains proprietary during the review period.
 
-> ⚠️ **This is not a general‑purpose chatbot.** It is a research scaffold designed to show
-> that reasoning robustness can emerge from *personalities that change over time*,
-> driven by structured disagreement and self‑stabilizing feedback.
+> ⚠️ **This is not a generic chatbot.** It's a research scaffold built on the thesis that
+> reasoning robustness emerges from *personalities that evolve through structured disagreement*.
 
 ## Table of Contents
 - [Architecture Overview](#architecture-overview)
