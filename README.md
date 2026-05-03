@@ -25,6 +25,46 @@ EchoKist Community Edition is the public companion of the **EchoKist** research 
 - [Citation](#citation)
 - [License](#license)
 
+## Design Philosophy (Full EchoKist)
+
+EchoKist is built on the thesis that **reasoning robustness emerges from controlled conflict**.
+In the full research implementation (not open‑sourced), the system operates as a self‑stabilising
+multi‑agent cognitive runtime with:
+
+| Mechanism | Role |
+|-----------|------|
+| **Personality Evolution** | Each agent maintains a skill vector (reasoning depth, creativity, etc.) that drifts based on long‑term performance, anchored by a fixed identity to prevent degeneracy. |
+| **Chaos Trainer (Adversarial Perturbation)** | A dedicated module deliberately injects bounded instability to expose weak reasoning equilibria — the system learns to resist premature consensus. |
+| **Credit Broker** | A global credit assignment hub that redistributes trust across personas according to their historical contribution, directly weighting their future influence. |
+| **Stability Controller** | Monitors reward variance and automatically adjusts exploration/temperature when instability is detected. |
+| **Externalised Alignment Layer** | Contradiction‑aware fusion that reconstructs the final answer by resolving inter‑agent conflicts at runtime, without modifying model parameters. |
+
+These components form a closed‑loop self‑improving system that avoids the degradation typical of long‑running multi‑agent setups.
+
+---
+
+## Community Edition (This Repo)
+
+This repository provides a **clean, minimal implementation** of the EchoKist reasoning pipeline.
+It deliberately **strips away** the self‑learning and adversarial mechanisms described above,
+leaving a **394‑line scaffold** that is easy to understand, deploy, and extend.
+
+What you get here:
+- Three distinct personas (engineer, analyst, empathetic companion)
+- Parallel generation via Ollama
+- Simple scoring and fusion
+- Stream (SSE) responses
+- State persistence and reset
+
+What you can build on top:
+- Swap in your own fusion strategy (LLM‑based synthesis, debate resolution, …)
+- Add new personas or personality evolution modules
+- Integrate with external memory or retrieval systems
+- Experiment with chaos‑like perturbation loops
+
+> ⚠️ **This is not the complete EchoKist engine.** The full version (used in our paper) 
+> contains the advanced mechanisms listed above and is closed‑source during the review period.
+
 ## Architecture Overview
 
 EchoKist Community Edition organizes reasoning around three built‑in personas:
