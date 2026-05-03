@@ -1,17 +1,16 @@
-Copyright (c) 2025 [NesarioX - XUSLEI]
+Copyright (c) 2025 [Nesario - XU SLEI]
 
-This source code is made publicly available for the sole purpose of
-accompanying the research paper "EchoKist: A Multi-Agent Cognitive
-Runtime with Adversarial Consensus and Externalized Alignment".
+This software is a reference implementation accompanying the research paper
+"EchoKist: A Multi-Agent Cognitive Runtime with Adversarial Consensus and
+Externalized Alignment".
 
-All rights reserved. No part of this software may be reproduced,
-distributed, or transmitted in any form or by any means, including
-photocopying, recording, or other electronic or mechanical methods,
-without the prior written permission of the author, except in the
-case of brief quotations embodied in critical reviews and certain
-other noncommercial uses permitted by copyright law.
+All rights reserved.
 
-Use for academic evaluation, verification, and reference is permitted
-provided that this notice is retained.
+You may view, fork, and run this software for the purpose of academic
+evaluation and verification. Any other use, including but not limited
+to commercial use, distribution, modification, or incorporation into
+other projects, is prohibited without explicit written permission from
+the copyright holder.
 
-For permissions, contact: [your email]
+If you have any questions or wish to request permission, please contact:
+[x2241638396@gmail.com]
