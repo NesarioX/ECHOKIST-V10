@@ -96,8 +96,9 @@ A request flows through the following stages:
 ### Installation
 ```bash
 git clone https://github.com/NesarioX/ECHOKIST-V10.git
-cd echokist-community
+cd ECHOKIST-V10
 pip install -r requirements.txt
+```
 
 ## License
 Copyright (c) 2025 Nesario (Xu Slei). All rights reserved.
