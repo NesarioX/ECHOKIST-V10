@@ -58,3 +58,8 @@ A request flows through the following stages:
 git clone https://github.com/YOUR_USER/echokist-community.git
 cd echokist-community
 pip install -r requirements.txt
+
+## License
+Copyright (c) 2025 Nesario (Xu Slei). All rights reserved.
+This project is provided for academic evaluation only.
+See [LICENSE](LICENSE) for full terms.
